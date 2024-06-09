@@ -1,0 +1,13 @@
+#address_dropdown{
+    width: 95%;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+#center{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+#success_messege{
+    text-align: center;
+}

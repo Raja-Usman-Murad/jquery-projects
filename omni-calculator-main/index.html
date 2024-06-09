@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Omni Calculator</title>
+  </head>
+
+  <body>
+    <h1 align="center">Omni Calculator</h1>
+    <h4 align="center">
+      You can calculate your hourly rate based salary in multiple currencies
+      like PKR, USD, EURO
+    </h4>
+    <br /><br /><br />
+    <form align="center" id="main" onsubmit="calculate(); return false">
+      <label for="">Monthly Salary:</label><input type="number" id="monthlySalary" /><br /><br />
+      <label for="">Per Hour Rate</label><input type="number" id="perHourRate" /><br /><br />
+      <label for="">Working Hours:</label><input type="number" id="workingHour" /><br /><br />
+      <label for="">Working Days:</label><input type="number" id="workingDays" /><br /><br />
+      <select name="" id="select">
+        <option value="">Select any Country</option>
+        <option value="PKR">PKR</option>
+        <option value="USD">USD</option>
+        <option value="Euro">Euro</option>
+      </select>
+      <br /><br />
+      <button type="submit">Calculate</button>
+    </form>
+    <br /><br />
+    <h2 align="center" id="show"></h2>
+    <script src="index.js"></script>
+  </body>
+</html>

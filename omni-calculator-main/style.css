@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blanchedalmond;
+  color: coral;
+}
+#show {
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: coral;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 30%;
+  color: blanchedalmond;
+}
